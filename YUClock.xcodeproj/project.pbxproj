@@ -16,6 +16,8 @@
 		9A1A9DB622F7BE4B00CD63AE /* YUFoldClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DB522F7BE4B00CD63AE /* YUFoldClock.m */; };
 		9A1A9DBA22F7C14600CD63AE /* UILabel+YUAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */; };
 		9A1A9DBC22F7C98600CD63AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */; };
+		9A1A9DC122F85D3500CD63AE /* NSDate+YUAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DC022F85D3500CD63AE /* NSDate+YUAdd.m */; };
+		9A1A9DC322F8602900CD63AE /* YUConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A9DC222F8602900CD63AE /* YUConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		9A1A9DB822F7C14600CD63AE /* UILabel+YUAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YUAdd.h"; sourceTree = "<group>"; };
 		9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YUAdd.m"; sourceTree = "<group>"; };
 		9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9A1A9DBF22F85D3500CD63AE /* NSDate+YUAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YUAdd.h"; sourceTree = "<group>"; };
+		9A1A9DC022F85D3500CD63AE /* NSDate+YUAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YUAdd.m"; sourceTree = "<group>"; };
+		9A1A9DC222F8602900CD63AE /* YUConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YUConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,9 @@
 			children = (
 				9A1A9DB822F7C14600CD63AE /* UILabel+YUAdd.h */,
 				9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */,
+				9A1A9DBF22F85D3500CD63AE /* NSDate+YUAdd.h */,
+				9A1A9DC022F85D3500CD63AE /* NSDate+YUAdd.m */,
+				9A1A9DC222F8602900CD63AE /* YUConfig.plist */,
 			);
 			path = YUCategory;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 			files = (
 				9A1A9D9E22F7BB3D00CD63AE /* Assets.xcassets in Resources */,
 				9A1A9DBC22F7C98600CD63AE /* Default-568h@2x.png in Resources */,
+				9A1A9DC322F8602900CD63AE /* YUConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 			files = (
 				9A1A9DB322F7BE3C00CD63AE /* YUFoldClockItem.m in Sources */,
 				9A1A9DBA22F7C14600CD63AE /* UILabel+YUAdd.m in Sources */,
+				9A1A9DC122F85D3500CD63AE /* NSDate+YUAdd.m in Sources */,
 				9A1A9DB622F7BE4B00CD63AE /* YUFoldClock.m in Sources */,
 				9A1A9DA422F7BB3D00CD63AE /* main.m in Sources */,
 				9A1A9DAC22F7BDC000CD63AE /* YUMainController.m in Sources */,
