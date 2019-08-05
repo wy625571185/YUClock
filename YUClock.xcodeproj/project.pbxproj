@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1A9D9622F7BB3B00CD63AE /* YUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9D9522F7BB3B00CD63AE /* YUAppDelegate.m */; };
+		9A1A9D9E22F7BB3D00CD63AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A9D9D22F7BB3D00CD63AE /* Assets.xcassets */; };
+		9A1A9DA422F7BB3D00CD63AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DA322F7BB3D00CD63AE /* main.m */; };
+		9A1A9DAC22F7BDC000CD63AE /* YUMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DAB22F7BDC000CD63AE /* YUMainController.m */; };
+		9A1A9DB022F7BE1F00CD63AE /* YUFoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DAF22F7BE1F00CD63AE /* YUFoldLabel.m */; };
+		9A1A9DB322F7BE3C00CD63AE /* YUFoldClockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DB222F7BE3C00CD63AE /* YUFoldClockItem.m */; };
+		9A1A9DB622F7BE4B00CD63AE /* YUFoldClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DB522F7BE4B00CD63AE /* YUFoldClock.m */; };
+		9A1A9DBA22F7C14600CD63AE /* UILabel+YUAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */; };
+		9A1A9DBC22F7C98600CD63AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A1A9D9122F7BB3B00CD63AE /* YUClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1A9D9422F7BB3B00CD63AE /* YUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUAppDelegate.h; sourceTree = "<group>"; };
+		9A1A9D9522F7BB3B00CD63AE /* YUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUAppDelegate.m; sourceTree = "<group>"; };
+		9A1A9D9D22F7BB3D00CD63AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A1A9DA222F7BB3D00CD63AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1A9DA322F7BB3D00CD63AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A1A9DAA22F7BDC000CD63AE /* YUMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUMainController.h; sourceTree = "<group>"; };
+		9A1A9DAB22F7BDC000CD63AE /* YUMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUMainController.m; sourceTree = "<group>"; };
+		9A1A9DAE22F7BE1F00CD63AE /* YUFoldLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUFoldLabel.h; sourceTree = "<group>"; };
+		9A1A9DAF22F7BE1F00CD63AE /* YUFoldLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUFoldLabel.m; sourceTree = "<group>"; };
+		9A1A9DB122F7BE3C00CD63AE /* YUFoldClockItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUFoldClockItem.h; sourceTree = "<group>"; };
+		9A1A9DB222F7BE3C00CD63AE /* YUFoldClockItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUFoldClockItem.m; sourceTree = "<group>"; };
+		9A1A9DB422F7BE4B00CD63AE /* YUFoldClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUFoldClock.h; sourceTree = "<group>"; };
+		9A1A9DB522F7BE4B00CD63AE /* YUFoldClock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUFoldClock.m; sourceTree = "<group>"; };
+		9A1A9DB822F7C14600CD63AE /* UILabel+YUAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YUAdd.h"; sourceTree = "<group>"; };
+		9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YUAdd.m"; sourceTree = "<group>"; };
+		9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1A9D8E22F7BB3B00CD63AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1A9D8822F7BB3B00CD63AE = {
+			isa = PBXGroup;
+			children = (
+				9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */,
+				9A1A9D9322F7BB3B00CD63AE /* YUClock */,
+				9A1A9D9222F7BB3B00CD63AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1A9D9222F7BB3B00CD63AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A9D9122F7BB3B00CD63AE /* YUClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A1A9D9322F7BB3B00CD63AE /* YUClock */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A9D9422F7BB3B00CD63AE /* YUAppDelegate.h */,
+				9A1A9D9522F7BB3B00CD63AE /* YUAppDelegate.m */,
+				9A1A9DAA22F7BDC000CD63AE /* YUMainController.h */,
+				9A1A9DAB22F7BDC000CD63AE /* YUMainController.m */,
+				9A1A9DB722F7C12C00CD63AE /* YUCategory */,
+				9A1A9DAD22F7BDEE00CD63AE /* YUFoldClock */,
+				9A1A9D9D22F7BB3D00CD63AE /* Assets.xcassets */,
+				9A1A9DA222F7BB3D00CD63AE /* Info.plist */,
+				9A1A9DA322F7BB3D00CD63AE /* main.m */,
+			);
+			path = YUClock;
+			sourceTree = "<group>";
+		};
+		9A1A9DAD22F7BDEE00CD63AE /* YUFoldClock */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A9DAE22F7BE1F00CD63AE /* YUFoldLabel.h */,
+				9A1A9DAF22F7BE1F00CD63AE /* YUFoldLabel.m */,
+				9A1A9DB122F7BE3C00CD63AE /* YUFoldClockItem.h */,
+				9A1A9DB222F7BE3C00CD63AE /* YUFoldClockItem.m */,
+				9A1A9DB422F7BE4B00CD63AE /* YUFoldClock.h */,
+				9A1A9DB522F7BE4B00CD63AE /* YUFoldClock.m */,
+			);
+			path = YUFoldClock;
+			sourceTree = "<group>";
+		};
+		9A1A9DB722F7C12C00CD63AE /* YUCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A9DB822F7C14600CD63AE /* UILabel+YUAdd.h */,
+				9A1A9DB922F7C14600CD63AE /* UILabel+YUAdd.m */,
+			);
+			path = YUCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1A9D9022F7BB3B00CD63AE /* YUClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1A9DA722F7BB3D00CD63AE /* Build configuration list for PBXNativeTarget "YUClock" */;
+			buildPhases = (
+				9A1A9D8D22F7BB3B00CD63AE /* Sources */,
+				9A1A9D8E22F7BB3B00CD63AE /* Frameworks */,
+				9A1A9D8F22F7BB3B00CD63AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUClock;
+			productName = YUClock;
+			productReference = 9A1A9D9122F7BB3B00CD63AE /* YUClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1A9D8922F7BB3B00CD63AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YU;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yu.;
+				TargetAttributes = {
+					9A1A9D9022F7BB3B00CD63AE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 9A1A9D8C22F7BB3B00CD63AE /* Build configuration list for PBXProject "YUClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A1A9D8822F7BB3B00CD63AE;
+			productRefGroup = 9A1A9D9222F7BB3B00CD63AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A1A9D9022F7BB3B00CD63AE /* YUClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A1A9D8F22F7BB3B00CD63AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1A9D9E22F7BB3D00CD63AE /* Assets.xcassets in Resources */,
+				9A1A9DBC22F7C98600CD63AE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1A9D8D22F7BB3B00CD63AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1A9DB322F7BE3C00CD63AE /* YUFoldClockItem.m in Sources */,
+				9A1A9DBA22F7C14600CD63AE /* UILabel+YUAdd.m in Sources */,
+				9A1A9DB622F7BE4B00CD63AE /* YUFoldClock.m in Sources */,
+				9A1A9DA422F7BB3D00CD63AE /* main.m in Sources */,
+				9A1A9DAC22F7BDC000CD63AE /* YUMainController.m in Sources */,
+				9A1A9D9622F7BB3B00CD63AE /* YUAppDelegate.m in Sources */,
+				9A1A9DB022F7BE1F00CD63AE /* YUFoldLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A1A9DA522F7BB3D00CD63AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A1A9DA622F7BB3D00CD63AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A1A9DA822F7BB3D00CD63AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 837YNTC66R;
+				INFOPLIST_FILE = YUClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YU.YUClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A1A9DA922F7BB3D00CD63AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 837YNTC66R;
+				INFOPLIST_FILE = YUClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YU.YUClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1A9D8C22F7BB3B00CD63AE /* Build configuration list for PBXProject "YUClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1A9DA522F7BB3D00CD63AE /* Debug */,
+				9A1A9DA622F7BB3D00CD63AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1A9DA722F7BB3D00CD63AE /* Build configuration list for PBXNativeTarget "YUClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1A9DA822F7BB3D00CD63AE /* Debug */,
+				9A1A9DA922F7BB3D00CD63AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1A9D8922F7BB3B00CD63AE /* Project object */;
+}
