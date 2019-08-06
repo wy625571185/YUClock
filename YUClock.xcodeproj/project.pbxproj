@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F1A764E83621AE0CE8062 /* Pods_YUClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22185138F2A9FE6680E1E181 /* Pods_YUClock.framework */; };
 		9A1A9D9622F7BB3B00CD63AE /* YUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9D9522F7BB3B00CD63AE /* YUAppDelegate.m */; };
 		9A1A9D9E22F7BB3D00CD63AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A9D9D22F7BB3D00CD63AE /* Assets.xcassets */; };
 		9A1A9DA422F7BB3D00CD63AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A9DA322F7BB3D00CD63AE /* main.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22185138F2A9FE6680E1E181 /* Pods_YUClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DA1011B53E55DE98D152D9 /* Pods-YUClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUClock.release.xcconfig"; path = "Target Support Files/Pods-YUClock/Pods-YUClock.release.xcconfig"; sourceTree = "<group>"; };
 		9A1A9D9122F7BB3B00CD63AE /* YUClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1A9D9422F7BB3B00CD63AE /* YUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUAppDelegate.h; sourceTree = "<group>"; };
 		9A1A9D9522F7BB3B00CD63AE /* YUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUAppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +44,8 @@
 		9A1A9DBF22F85D3500CD63AE /* NSDate+YUAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YUAdd.h"; sourceTree = "<group>"; };
 		9A1A9DC022F85D3500CD63AE /* NSDate+YUAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YUAdd.m"; sourceTree = "<group>"; };
 		9A1A9DC222F8602900CD63AE /* YUConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YUConfig.plist; sourceTree = "<group>"; };
+		9AB92B7A22F938C600E9A7CE /* YUClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YUClock-Prefix.pch"; sourceTree = "<group>"; };
+		BCE58758377300B1C8A2921E /* Pods-YUClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUClock.debug.xcconfig"; path = "Target Support Files/Pods-YUClock/Pods-YUClock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180F1A764E83621AE0CE8062 /* Pods_YUClock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,8 @@
 				9A1A9DBB22F7C98600CD63AE /* Default-568h@2x.png */,
 				9A1A9D9322F7BB3B00CD63AE /* YUClock */,
 				9A1A9D9222F7BB3B00CD63AE /* Products */,
+				D9B07ED19AB09CC834738EDF /* Pods */,
+				C6293523D49B7A74649FD6DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +90,7 @@
 				9A1A9DAD22F7BDEE00CD63AE /* YUFoldClock */,
 				9A1A9D9D22F7BB3D00CD63AE /* Assets.xcassets */,
 				9A1A9DA222F7BB3D00CD63AE /* Info.plist */,
+				9AB92B7A22F938C600E9A7CE /* YUClock-Prefix.pch */,
 				9A1A9DA322F7BB3D00CD63AE /* main.m */,
 			);
 			path = YUClock;
@@ -112,6 +121,23 @@
 			path = YUCategory;
 			sourceTree = "<group>";
 		};
+		C6293523D49B7A74649FD6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22185138F2A9FE6680E1E181 /* Pods_YUClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B07ED19AB09CC834738EDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCE58758377300B1C8A2921E /* Pods-YUClock.debug.xcconfig */,
+				79DA1011B53E55DE98D152D9 /* Pods-YUClock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1A9DA722F7BB3D00CD63AE /* Build configuration list for PBXNativeTarget "YUClock" */;
 			buildPhases = (
+				8108CF3EA4AAEEFCFC2824A6 /* [CP] Check Pods Manifest.lock */,
 				9A1A9D8D22F7BB3B00CD63AE /* Sources */,
 				9A1A9D8E22F7BB3B00CD63AE /* Frameworks */,
 				9A1A9D8F22F7BB3B00CD63AE /* Resources */,
@@ -177,6 +204,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8108CF3EA4AAEEFCFC2824A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A1A9D8D22F7BB3B00CD63AE /* Sources */ = {
@@ -311,17 +363,21 @@
 		};
 		9A1A9DA822F7BB3D00CD63AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE58758377300B1C8A2921E /* Pods-YUClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 837YNTC66R;
+				DEVELOPMENT_TEAM = P3DN33UJZX;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
 				INFOPLIST_FILE = YUClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YU.YUClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyc.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,17 +385,21 @@
 		};
 		9A1A9DA922F7BB3D00CD63AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DA1011B53E55DE98D152D9 /* Pods-YUClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 837YNTC66R;
+				DEVELOPMENT_TEAM = P3DN33UJZX;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
 				INFOPLIST_FILE = YUClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YU.YUClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyc.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

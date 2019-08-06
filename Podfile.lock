@@ -1,0 +1,20 @@
+PODS:
+  - Bugly (2.5.0)
+  - tingyunApp (2.13.2)
+
+DEPENDENCIES:
+  - Bugly
+  - tingyunApp
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - tingyunApp
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  tingyunApp: 53e35c235ae460c373d7cadbb8675c18011acd64
+
+PODFILE CHECKSUM: af81d4a8140bf7ecacfcea84d5b66eb32f7d6a62
+
+COCOAPODS: 1.7.3

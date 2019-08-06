@@ -61,16 +61,27 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     CGFloat margin = 0.03 * CGRectGetWidth(self.bounds);
-    CGFloat itemW = (CGRectGetWidth(self.bounds) - 4 * margin - 100) / 2.0f;
+    CGFloat secondW = 80;
+    CGFloat itemW = (CGRectGetWidth(self.bounds) - 4 * margin - secondW) / 2.0f;
     CGFloat itemY = (CGRectGetHeight(self.bounds) - itemW) / 2.0f;
     
+    /*! NOTE: 日期 */
     self.dateLabel.frame = CGRectMake(margin + 5, itemY - 35, CGRectGetWidth(self.bounds) - 2 * margin - 10, 30);
+    
+    /*! NOTE: 时 */
     self.hourItem.frame = CGRectMake(margin, itemY, itemW, itemW);
+    self.hourItem.font = [UIFont fontWithName:@"AmericanTypewriter-CondensedBold" size:itemW - 5];
+    /*! NOTE: 分 */
     self.minuteItem.frame = CGRectMake(CGRectGetMaxX(self.hourItem.frame) + margin, itemY, itemW, itemW);
+    self.minuteItem.font = [UIFont fontWithName:@"AmericanTypewriter-CondensedBold" size:itemW - 5];
+    /*! NOTE: 秒 */
+    self.secondItem.frame = CGRectMake(CGRectGetMaxX(self.minuteItem.frame) + margin, CGRectGetMaxY(self.minuteItem.frame) - secondW, secondW, secondW);
+    self.secondItem.font = [UIFont fontWithName:@"AmericanTypewriter-CondensedBold" size:secondW - 5];
     
-    self.alertLabel.frame = CGRectMake(CGRectGetMaxX(self.minuteItem.frame), itemY, 100 + 2 * margin, 100);
-    self.secondItem.frame = CGRectMake(CGRectGetMaxX(self.minuteItem.frame) + margin, CGRectGetMaxY(self.minuteItem.frame) - 100, 100, 100);
+    /*! NOTE: 上下午 */
+    self.alertLabel.frame = CGRectMake(CGRectGetMaxX(self.minuteItem.frame), itemY, secondW + 2 * margin, secondW);
     
+    /*! NOTE: 农历 */
     self.lunarCalendarLabel.frame = CGRectMake(CGRectGetMinX(self.dateLabel.frame), itemY + itemW + 10, CGRectGetWidth(self.dateLabel.frame), CGRectGetHeight(self.dateLabel.frame));
 }
 
@@ -103,7 +114,7 @@
 - (void)setFont:(UIFont *)font {
     _hourItem.font = font;
     _minuteItem.font = font;
-    _secondItem.font = [UIFont fontWithName:@"AmericanTypewriter-Condensed" size:90];
+    _secondItem.font = [UIFont fontWithName:@"AmericanTypewriter-Condensed" size:75];
 }
 
 - (void)setTextColor:(UIColor *)textColor {
@@ -129,7 +140,7 @@
     if (!_alertLabel) {
         _alertLabel = [[UILabel alloc] init];
         _alertLabel.textColor = [UIColor colorWithRed:186/255.0f green:183/255.0f blue:186/255.0f alpha:1];
-        _alertLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:50];
+        _alertLabel.font = [UIFont fontWithName:@"AmericanTypewriter-CondensedBold" size:50];
         _alertLabel.textAlignment = NSTextAlignmentCenter;
         _alertLabel.text = @"";
     }
@@ -159,7 +170,7 @@
     if (!_secondItem) {
         _secondItem = [[YUFoldClockItem alloc] init];
         _secondItem.type = YUClockItemTypeHour;
-        _secondItem.font = [UIFont fontWithName:@"AmericanTypewriter-Condensed" size:90];
+        _secondItem.font = [UIFont fontWithName:@"AmericanTypewriter-CondensedBold" size:75];
     }
     return _secondItem;
 }

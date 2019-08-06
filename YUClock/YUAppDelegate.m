@@ -8,6 +8,7 @@
 
 #import "YUAppDelegate.h"
 #import "YUMainController.h"
+#import <Bugly/Bugly.h>
 
 @interface YUAppDelegate ()
 
@@ -24,6 +25,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [YUMainController new];
     [self.window makeKeyAndVisible];
+    
+    [Bugly startWithAppId:@"a15c70526a"];
     
     return YES;
 }
